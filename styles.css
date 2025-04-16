@@ -1,0 +1,30 @@
+*{
+    border: 1px solid;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header-links{
+    display: flex;
+}
+
+.hero{
+    display: flex;
+}
+
+.hero-image{
+    height: 50px;
+    width: 50px;
+}
+
+.additional-info {
+    display:flex;
+    flex-direction:column;
+}
+
+.info-image{
+    display: flex;
+}
