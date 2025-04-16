@@ -5,14 +5,21 @@
 header{
     display: flex;
     justify-content: space-between;
+    padding: 8px;
 }
 
-header-links{
+.header-links{
     display: flex;
+    gap: 16px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .hero{
     display: flex;
+    justify-content: space-around;
+    padding: 8px;
 }
 
 .hero-image{
@@ -23,6 +30,7 @@ header-links{
 .additional-info {
     display:flex;
     flex-direction:column;
+    align-items: center;
 }
 
 .info-image{
